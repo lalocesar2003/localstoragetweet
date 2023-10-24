@@ -11,10 +11,10 @@ function eventListeners() {
     document.addEventListener('DOMContentLoaded',()=>{
 
         tweets=JSON.parse(localStorage.getItem('tweets')) || [];
-
+        crearHTML();
     });
 
-    crearHTML();
+   
 }
 
 
